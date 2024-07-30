@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+.gallery-container {
+  padding: 50px 15px;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+.image-gallery {
+  overflow: hidden; /* Ensures the image doesn't overflow */
+  cursor: pointer; /* Change cursor to pointer to indicate clickability */
+  object-fit: cover;
+  width: 100%;
+}
+
+.gallery-image {
+  transition: transform 0.5s ease; /* Smooth zoom effect */
+}
+
+.image-gallery:hover .gallery-image {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.row {
+  margin-bottom: 40px; /* Space between categories */
+}
+
+.modal-content-wrapper {
+  position: relative;
+}
+
+.modal-content-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.modal-image {
+  max-height: 80vh; /* Ensure the image doesn't overflow the viewport */
+}
+
+.modal-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  padding: 0 10px;
+  z-index: 1000;
+}
+
+.modal-nav.prev {
+  left: 0;
+}
+
+.modal-nav.next {
+  right: 0;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+}

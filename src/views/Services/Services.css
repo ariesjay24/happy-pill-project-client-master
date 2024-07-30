@@ -1,0 +1,106 @@
+/* Services.css */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+.services-container {
+  padding: 40px 0;
+  margin-top: 20px;
+}
+
+.service-title h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  font-family: "Dancing Script", cursive;
+}
+.carousel-container {
+  margin-bottom: 40px; /* Add space below the carousel */
+}
+
+.carousel-image-services {
+  height: 350px !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  background-color: #e4f4f4;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card-body .card-title {
+  margin-bottom: 50px;
+}
+
+.badge-title {
+  background-color: #193c3c;
+}
+
+.package-price {
+  text-align: center;
+}
+
+.card-body .button-services {
+  background-color: #193c3c;
+  align-self: center; /* Center the button horizontally */
+  width: auto; /* Ensure the button maintains its normal size */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.card-body .service-description {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body .button-services {
+  background-color: #193c3c;
+  border-color: #193c3c;
+}
+
+.button-services:hover {
+  background-color: #fff !important;
+  color: black !important;
+  border-color: #193c3c !important;
+}
+
+.modal-services {
+  background-color: #e4f4f4;
+}
+
+.modal-services {
+  background-color: #e4f4f4;
+}
+
+.modal .button-services {
+  background-color: #193c3c;
+  border-color: #193c3c;
+}
+
+.modal .closebutton-services {
+  background-color: #818589;
+  border-color: #818589;
+  color: #000;
+}
+
+.modal .closebutton-services:hover {
+  background-color: #818589;
+  border-color: #818589;
+  color: #fff;
+}
+
+.modal-footer {
+  background-color: #e4f4f4 !important;
+}
+.video-title {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+}

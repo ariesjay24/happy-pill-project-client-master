@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #193c3c;
+}
+
+.Name-logo {
+  height: 50px; /* Adjust based on your preference */
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  margin: 0 10px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ddd !important;
+  opacity: 0.9;
+}
+
+.navbar-nav .btn {
+  color: white;
+  border: 1px solid white;
+  margin: 0 5px;
+}
+
+.navbar-nav .btn:hover {
+  background-color: #155e5e;
+  border-color: white;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

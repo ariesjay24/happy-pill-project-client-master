@@ -1,0 +1,41 @@
+.bookings-container {
+  margin-top: 4rem;
+  font-family: "libre baskerville, serif";
+  font-size: 18px;
+}
+.card {
+  margin-bottom: 0px;
+}
+
+.card-title {
+  text-align: center;
+}
+.availability-section {
+  text-align: center;
+}
+.availability-section .calendar-section {
+  font-size: 20px;
+  margin-bottom: auto;
+}
+.availability-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.availability-section .availability-title {
+  text-align: center;
+}
+
+.calendar-section {
+  width: 100%;
+  max-width: 500px;
+}
+.form-booking .booking-btn {
+  background-color: #193c3c;
+  border-color: #193c3c;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}

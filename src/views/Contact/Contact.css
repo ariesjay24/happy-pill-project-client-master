@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+.contact-container {
+  font-family: "Libre+Baskerville", serif;
+  margin-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.contact-header {
+  text-align: right;
+  background-color: #1d4b4c;
+  padding: 20px;
+  padding-left: 50px;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px; /* Ensure space between header and content */
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Space between form section and image */
+}
+
+.contact-form-section {
+  flex: 2;
+  font-size: 1rem;
+  padding: 100px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px;
+}
+
+.contact-image img {
+  width: 140%;
+  height: 650px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.contact-btn {
+  background-color: #193c3c !important;
+  border-color: #193c3c !important;
+}
+.contact-btn:hover {
+  opacity: 0.9;
+}
+.follow-instagram {
+  text-align: center;
+  background-color: #193c3c;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 15px;
+  margin-bottom: 5rem;
+}
+
+.follow-instagram h3 {
+  margin-bottom: 10px;
+}
+
+.follow-instagram a {
+  margin: 0;
+  color: #fff;
+}
+.follow-instagram a:hover {
+  opacity: 0.5;
+}
